@@ -73,6 +73,8 @@ img { max-width: 100%; }
 .pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 clamp(28px, 4vw, 44px); padding: 0; list-style: none; }
 .pill { background: var(--pill-bg); color: var(--pill-ink); border-radius: 14px; padding: 4px 16px; font-size: 15px; font-weight: 500; line-height: 1.6; }
 .pill.line { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+.p-meta a.pill.gh { display: inline-block; text-decoration: none; background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+.p-meta a.pill.gh:hover { background: var(--ink); color: var(--pill-ink); }
 
 /* definition rows */
 .facts { margin: 0; display: grid; grid-template-columns: minmax(8.5rem, 11rem) 1fr; border-bottom: 1px solid var(--hair); }
@@ -282,6 +284,7 @@ pre.snip { margin: 8px 0 10px; padding: 12px 14px; background: var(--soft); bord
       <ul class="p-meta">
         <li class="pill">졸업작품 · 스토어 배포 준비 중</li>
         <li class="pill line">2026.03~진행 중</li>
+        <li><a class="pill gh" href="https://github.com/2026-dmu-quiz-language/qring_backend" target="_blank" rel="noopener">GitHub ↗</a></li>
         <li class="pill line">4인 팀 · 백엔드 · DB 설계 전담</li>
         <li class="pill line">사용자 설문 13명 · 추천 점수 9.31/10</li>
         <li class="pill line">사용자 테스트 31명 · 만족도 4.5/5</li>
@@ -636,6 +639,7 @@ int tryDeductPoints(Long userId, int points);   // 0이면 잔액 부족</pre>
       <ul class="p-meta">
         <li class="pill">졸업작품</li>
         <li class="pill line">2025.03~2025.11</li>
+        <li><a class="pill gh" href="https://github.com/Chize42/GoodDream" target="_blank" rel="noopener">GitHub ↗</a></li>
         <li class="pill line">3인 팀 · 팀장</li>
         <li class="pill line">학교 공모전 우수상 · 해당 과목 A+</li>
       </ul>
