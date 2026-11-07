@@ -5,6 +5,7 @@ DB 설계와 백엔드 API를 중심으로, 앱 화면까지 직접 만들며 �
 
 - 🎓 동양미래대학교 컴퓨터소프트웨어공학과 (2027.02 졸업 예정)
 - 🛠 큐링 : 스토리 기반 외국어 학습 앱 백엔드 · DB 설계 전담 (스토어 배포 준비 중)
+- 📂 포트폴리오 : [aprilily.github.io](https://aprilily.github.io)
 - 📫 dahyunche@gmail.com
 
 <br>
